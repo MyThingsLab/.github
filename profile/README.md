@@ -35,6 +35,14 @@ before any real backend is wired in.
 | [`my-template`](https://github.com/MyThingsLab/my-template) | Scaffold for a new `My[X]` tool — copy it, replace `template`. |
 | [`fleet-dispatch`](https://github.com/MyThingsLab/fleet-dispatch) | Workspace-level dispatcher that drives the fleet across repos. |
 
+## Status
+
+Current status, last/next steps per tool, open decisions, and safety gaps
+live on the fleet's [project board](https://github.com/orgs/MyThingsLab/projects/1)
+(org members only). It's manually curated, not auto-generated — the
+[org-wide tracking issue](https://github.com/MyThingsLab/fleet-dispatch/issues/1)
+carries the full-detail write-up behind each card.
+
 ## Design rules
 
 - **Deterministic-first.** An LLM is called only where judgment is
