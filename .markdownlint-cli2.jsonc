@@ -1,0 +1,11 @@
+{
+  // Org profile repo. Allowlist only correctness rules that catch genuinely
+  // broken Markdown — malformed or empty links — not stylistic formatting.
+  "config": {
+    "default": false,
+    "MD011": true, // reversed link syntax [text](url) written (text)[url]
+    "MD039": true, // spaces inside link text
+    "MD042": true  // no empty links
+  },
+  "globs": ["**/*.md"]
+}
